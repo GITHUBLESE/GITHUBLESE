@@ -13,10 +13,11 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+# A workflow run is made up of one or more jobs that can run  sequentially or in parallel and fast
 jobs:
   # This workflow contains a single job called "build"
-  build:
+  build: floors and walls to run
+  
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
